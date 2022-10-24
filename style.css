@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.form{
+    background-color: rgb(200, 232, 232);
+    width: 700px;
+    height: 590px;
+    margin: 180px auto;
+}
+
+.div1{
+    border: 5px solid white;
+    border-radius: 110px;
+    width: 220px;
+    margin-top: 0px;
+    height: 220px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.div2{
+    align-items: center;
+    justify-content: center;
+    padding: 30px 120px;
+    padding-left: 120px;
+    cursor: pointer;
+    margin-top: 40px;
+    transition: all 1.s ease;
+}
+
+.change{
+    font-size: 1rem;
+    width: 140px;
+    height: 40px;
+    background-color: chocolate;
+    color: azure;
+    font-weight: 600;
+    margin-left: 280px;
+    cursor: pointer;
+}
+
+lottie-player{
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+    display:inline-block;
+}
+
+.photo{
+    width: 100%;
+}
+
+#result{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+#result::first-line{
+    font-size: 1.2rem;
+}
